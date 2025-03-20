@@ -1,12 +1,6 @@
-# inventory_management.py
-
 # Dictionary to store product quantities
-inventory = {
-    'apple': 20,
-    'banana': 10,
-    'cherry': 0
-}
-'''I had to edit some of the inventory values because the inventory management test code forgets to reset the inventory each time, hence none of the tests can be passed'''
+inventory = {}
+
 # Function to add products to the inventory
 def add_product(product, quantity):
     if product in inventory:
